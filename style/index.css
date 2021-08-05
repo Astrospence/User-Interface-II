@@ -88,6 +88,11 @@ h2{
 
 /*Billboard Styles*/
 .billboard{
+    background-image:url("../Wireframe Options/billboard.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius:17px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -103,7 +108,7 @@ h1{
     margin-bottom:10%;
     width:15%;
     padding:1% 2%;
-    border-radius:5%;
+    border-radius:5px;
 }
 
 /*Content Styles*/
@@ -123,6 +128,7 @@ h1{
     background-size:cover;
     background-repeat:no-repeat;
     height:40vh;
+    border-radius:5px;
 }
 h3{
     text-align:center;
@@ -142,4 +148,5 @@ h3{
 #contactbutton{
     width:15%;
     height:7vh;
+    border-radius:5%;
 }
