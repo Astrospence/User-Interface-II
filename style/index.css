@@ -206,12 +206,21 @@ h3{
 .socials{
     display:flex;
     margin:1%;
-    
+    padding:1%;
+}
+.socials {
+    color:white;
+    opacity:0.8;
+    display:flex;
+    justify-content:flex-start;
+}
+.socials a{
+    padding:0 1%;
 }
 
 /*Hover Styles*/
 .toplinks:hover{
-    opacity:0.4;
+    opacity:0.2;
 }
 .photo1:hover{
     border:2px solid rgb(0, 214, 0);
@@ -236,5 +245,5 @@ h3{
     height:7.5vh;
 }
 #myprojectsbutton:hover{
-    color:rgb(0, 247, 0);
+    color:rgb(0, 255, 255);
 }
